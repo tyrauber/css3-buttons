@@ -6,4 +6,22 @@ These buttons are now implemented using Sass, using [Bourbon](http://github.com/
 
 If you use any of these buttons in the wild, drop me a note and let me know.
 
+## Directions:
+
+Link button.css in your document head:
+
+`<link rel="stylesheet" href="https://raw.github.com/tyrauber/css3-buttons/master/css/buttons.css" type="text/css" media="screen">`
+
+The following button style classes are available:
+
+`.minimal, .clean-gray, .cupid-green, .blue-pill, .dribbble, .slick-black, .thoughtbot, .punch, .blue-candy, .shiny-blue, .download-itunes, .skip, .webkit-badge, .webkit-seal, .webkit-check`
+
+To style a button:
+
+`<button class="desired-style">Button Text</button>`
+
+To style a link as a button:
+
+`<a href="#" class="button desired-style">Link Text</a>`
+
 ## View the buttons here: http://ubuwaits.github.com/css3-buttons
